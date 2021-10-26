@@ -93,6 +93,20 @@
                 border-radius: 4px;
                 resize: vertical;
             }
+            .profile-radio-content {
+                display: flex;
+                flex-direction: row;
+            }
+            .profile-radio-content> label{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .profile {
+                width: 40px;
+                border-radius: 50%;
+                margin-left: 12px;
+            }
 
         </style>
     </head>
@@ -119,6 +133,36 @@
                 </div>
             </form>
 
+        </div>
+                <div class="row-content">
+                    <label for="profile" class="label text">Profile image</label>
+                    <div class="profile-radio-content">
+                        <label>
+                            <input type="radio" id="profile1" name="profile" value="./images & Logos/assets/profile-images/Ellipse -1.png" required>
+                            <img src="./images & Logos/assets/profile-images/Ellipse -1.png" alt="Error Occured">
+                        </label>
+                        <label>
+                            <input type="radio" id="profile2" name="profile" value="./images & Logos/assets/profile-images/Ellipse -3.png" required>
+                            <img src="./images & Logos/assets/profile-images/Ellipse -3.png" alt="Error Occured">
+                        </label>
+                        <label>
+                            <input type="radio" id="profile3" name="profile" value="./images & Logos/assets/profile-images/Ellipse -10.png" required>
+                            <img src="./images & Logos/assets/profile-images/Ellipse -10.png" alt="Error Occured">
+                        </label>
+                        <label>
+                            <input type="radio" id="profile4" name="profile" value="./images & Logos/assets/profile-images/Ellipse -7.png" required>
+                            <img src="./images & Logos/assets/profile-images/Ellipse -7.png" alt="Error Occured">
+                        </label>
+                        <label>
+                            <input type="radio" id="profile5" name="profile" value="./images & Logos/assets/profile-images/Ellipse -5.png" required>
+                            <img src="./images & Logos/assets/profile-images/Ellipse -5.png" alt="Error Occured">
+                        </label>
+        
+                    </div>
+            </form>
+
+        </div>
+        
         </div>
     </body>
 </html>
